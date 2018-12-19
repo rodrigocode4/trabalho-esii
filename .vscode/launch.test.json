@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "sig",
+                "projectName": "sig",
+                "workingDirectory": "/home/rodrigo/trabalho-esii/sig",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "sig",
+                "projectName": "sig",
+                "workingDirectory": "/home/rodrigo/trabalho-esii/sig",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
