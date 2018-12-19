@@ -22,17 +22,19 @@ public class EncerradorDeNotaTest {
 
     private Matricula matricula;
     private Turma turma;
+    private BigDecimal nota;
 
     @Before
     public void instacer() {
         this.matricula = new Matricula(18640034);
         this.turma = new Turma("2016.4");
+        this.nota = new BigDecimal(10);
     }
   
     @Test
     public void deveVerificarAlunosNotasLancadas() {
-        Aluno rodrigo = new Aluno(matricula, "Rodrigo", turma, new BigDecimal(10));
-        Aluno randerson = new Aluno(matricula, "Randerson", turma, new BigDecimal(10));
+        Aluno rodrigo = new Aluno(matricula, "Rodrigo", turma, nota);
+        Aluno randerson = new Aluno(matricula, "Randerson", turma, nota);
         List<Aluno> alunosComNotas = Arrays.asList(rodrigo, randerson);
 
         AlunoDao alunoDaoMock  = mock(AlunoDao.class);

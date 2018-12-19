@@ -27,29 +27,9 @@ public class Aluno {
 	public Aluno() {
     }
 
-    public Matricula getMatricula() {
-        return this.matricula;
-    }
-
-    public void setMatricula(Matricula matricula) {
-        this.matricula = matricula;
-    }
-
-    public String getNome() {
-        return this.nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
-    }
-
-    public Turma getTurma() {
-        return this.turma;
-    }
-
-    public void setTurma(Turma turma) {
-        this.turma = turma;
-    }
+   public void realizarMatricula() {
+       
+   }
 
     public BigDecimal getNota() {
         return this.nota;

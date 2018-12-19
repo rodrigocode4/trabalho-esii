@@ -24,10 +24,8 @@ public class ProfessorTest {
 
     @Test
     public void deveLancarNota(){
-
         professor.lancarNota(new BigDecimal(10), aluno);
         assertTrue(aluno.getNota().compareTo(new BigDecimal(10)) == 0);
-
     }
 
     @Test(expected = RuntimeException.class)
