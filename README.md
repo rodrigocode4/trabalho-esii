@@ -1,5 +1,11 @@
 # trabalho-esii
 
+## Alunos
+```
+Edson Rodrigo de Oliveira
+Randerson Wesley dos Reis
+```
+
 ## Nome da Tarefa: 
 
 Exercício 3 - Casos de Testes Unitários
